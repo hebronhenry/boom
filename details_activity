@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#55c267"
+
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_weight="1"
+        android:id="@+id/image"
+        android:src="@drawable/ic_menu_send"
+        />
+    <TextView
+        android:layout_width="170dp"
+        android:layout_height="20dp"
+        android:layout_weight="1"
+        android:id="@+id/name"
+        android:fontFamily="cursive"
+        android:text="Contacts"
+        android:layout_toRightOf="@+id/image"
+        android:gravity="center_vertical"
+        android:textSize="14sp"
+        />
+
+    <TextView
+        android:layout_width="170dp"
+        android:fontFamily="cursive"
+        android:layout_height="20dp"
+        android:layout_weight="1"
+        android:id="@+id/content"
+        android:layout_toRightOf="@+id/image"
+        android:layout_below="@+id/name"
+        android:text="Content"
+        android:gravity="center_vertical"
+        android:textSize="12sp"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_toRightOf="@+id/name"
+        android:layout_weight="1"
+        android:text="time"
+        android:fontFamily="cursive"
+        android:gravity="right"
+        android:id="@+id/time"
+        android:textSize="14sp"
+        android:paddingRight="50sp"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:id="@+id/date"
+        android:layout_toRightOf="@+id/content"
+        android:layout_below="@+id/time"
+        android:layout_weight="1"
+        android:gravity="right"
+        android:textStyle="italic"
+        android:textSize="12sp"
+        android:fontFamily="cursive"
+        android:paddingRight="50sp"
+        android:text="Date"/>
+
+
+
+
+</RelativeLayout>
