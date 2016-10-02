@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#99d6ea">
+
+   <EditText
+       android:layout_width="300dp"
+       android:layout_height="50dp"
+       android:layout_gravity="center"
+       android:hint="Enter username or phone number"
+       android:gravity="center"
+       android:background="#fff"
+       android:inputType="textPhonetic"
+       android:layout_marginTop="30dp"
+       />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:hint="Enter password"
+        android:gravity="center"
+        android:background="#fff"
+        android:inputType="numberPassword"
+        android:layout_marginTop="30dp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#fff"
+        android:layout_marginRight="40dp"
+        android:text="forget password?"
+        android:layout_gravity="end"/>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="#fff"
+        android:text="login"
+        android:layout_gravity="center"/>
+
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="#fff"
+        android:text="new user?"
+        android:layout_gravity="center"/>
+
+
+
+</LinearLayout>
